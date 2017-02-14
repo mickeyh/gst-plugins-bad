@@ -16,7 +16,6 @@ noinst_HEADERS += gstglcontext_wgl.h
 endif
 
 libgstgl_win32_la_CFLAGS = \
-	-DGST_EXPORTS \
 	-I$(top_srcdir)/gst-libs \
 	-I$(top_builddir)/gst-libs \
 	$(GL_CFLAGS) \
